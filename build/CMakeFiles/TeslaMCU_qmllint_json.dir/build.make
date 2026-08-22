@@ -69,6 +69,7 @@ include CMakeFiles/TeslaMCU_qmllint_json.dir/progress.make
 CMakeFiles/TeslaMCU_qmllint_json: /opt/homebrew/opt/qt/bin/qmllint
 CMakeFiles/TeslaMCU_qmllint_json: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml
 CMakeFiles/TeslaMCU_qmllint_json: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
+CMakeFiles/TeslaMCU_qmllint_json: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
 CMakeFiles/TeslaMCU_qmllint_json: .rcc/qmllint/TeslaMCU_json.rsp
 	cd /Users/sherazrajput/Cpp-Projects/TeslaMCU && /opt/homebrew/opt/qt/bin/qmllint @/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmllint/TeslaMCU_json.rsp
 

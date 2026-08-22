@@ -70,6 +70,7 @@ CMakeFiles/module_TeslaMCU_aotstats_target: .rcc/qmlcache/module_TeslaMCU.aotsta
 
 .rcc/qmlcache/module_TeslaMCU.aotstats: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats
 .rcc/qmlcache/module_TeslaMCU.aotstats: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats
+.rcc/qmlcache/module_TeslaMCU.aotstats: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats
 .rcc/qmlcache/module_TeslaMCU.aotstats: .rcc/qmlcache/module_TeslaMCU.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_TeslaMCU.aotstats"
 	/opt/homebrew/opt/qt/share/qt/libexec/qmlaotstats aggregate /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/module_TeslaMCU.aotstatslist /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/module_TeslaMCU.aotstats
@@ -88,6 +89,20 @@ CMakeFiles/module_TeslaMCU_aotstats_target: .rcc/qmlcache/module_TeslaMCU.aotsta
 .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats
 
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: /opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: .qt/rcc/qmake_TeslaMCU.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: .qt/rcc/TeslaMCU_raw_qml_0.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: .qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: qml/TeslaMCU/TeslaMCU.qmltypes
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp: qml/TeslaMCU/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp, .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats"
+	/opt/homebrew/bin/cmake -E make_directory /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen
+	/opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/TeslaMCU/qml/Rightscreen/MapView.qml -I /Users/sherazrajput/Cpp-Projects/TeslaMCU/build -I /opt/homebrew/opt/qt/share/qt/qml -i /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qmldir --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qmake_TeslaMCU.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=TeslaMCU(TeslaMCU)" -o /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
+
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats
+
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: /opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: .qt/rcc/qmake_TeslaMCU.qrc
@@ -95,7 +110,7 @@ CMakeFiles/module_TeslaMCU_aotstats_target: .rcc/qmlcache/module_TeslaMCU.aotsta
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: .qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: qml/TeslaMCU/TeslaMCU.qmltypes
 .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp: qml/TeslaMCU/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp, .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp, .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats"
 	/opt/homebrew/bin/cmake -E make_directory /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar
 	/opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/TeslaMCU/qml/bottomBar/BottomButtons.qml -I /Users/sherazrajput/Cpp-Projects/TeslaMCU/build -I /opt/homebrew/opt/qt/share/qt/qml -i /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qmldir --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qmake_TeslaMCU.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=TeslaMCU(TeslaMCU)" -o /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
 
@@ -107,6 +122,8 @@ CMakeFiles/module_TeslaMCU_aotstats_target.dir/codegen:
 
 module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
 module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats
+module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
+module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats
 module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp
 module_TeslaMCU_aotstats_target: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats
 module_TeslaMCU_aotstats_target: .rcc/qmlcache/module_TeslaMCU.aotstats

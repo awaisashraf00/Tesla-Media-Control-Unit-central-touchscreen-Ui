@@ -8,6 +8,8 @@ bf5565e262821ec43e05615a1939bb05 .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cp
 abcd8366b0bc2f0f0d247513cb19f242 .qt/rcc/qrc_qmake_TeslaMCU.cpp
 3787fba31775cc4446325c13d4c2cf4e .rcc/qmlcache/TeslaMCU_qml/BottomButtons_qml.cpp
 0ce25a81b1decb7526c45a666425fb12 .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
+f9729afa9e5614dc86d5980ac1af49bb .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
+f55808f316a6eca81a7b0d0a48baca07 .rcc/qmlcache/TeslaMCU_qml/Rightscreen/map_qml.cpp
 10a0cfce56b00fbf9c9d107527520f3a .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp
 6f457795aad4f6f06fca32edc1a6e7cd .rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp
 6f421401c581f5506aaf7a73426022f5 .rcc/qmlcache/all_aotstats.aotstats

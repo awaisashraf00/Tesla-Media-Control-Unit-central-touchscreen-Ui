@@ -6,6 +6,8 @@ set(src_and_dest_list
     "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/Main.qml"
     "/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml"
     "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/bottomBar/BottomButtons.qml"
+    "/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml"
+    "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/Rightscreen/MapView.qml"
 
 )
 set(timestamp_file "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/TeslaMCU_qml.txt")

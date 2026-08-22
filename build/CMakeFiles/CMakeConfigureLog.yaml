@@ -8957,3 +8957,487 @@ events:
         - "/opt/homebrew/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "/opt/homebrew/lib/cmake/Qt6/3rdparty/kwin"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:253 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    name: "Qt6Positioning"
+    configs:
+      -
+        filename: "Qt6PositioningConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6positioning-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Positioning"
+      search_paths:
+        - "/opt/homebrew/opt/qt/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/Qt6PositioningConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/qt6positioning-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/qt6positioning-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuickPrivate/qt6positioning-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuick/Qt6PositioningConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuick/qt6positioning-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningPrivate/Qt6PositioningConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningPrivate/qt6positioning-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/opt/qt/lib/cmake/Qt6Positioning/Qt6PositioningConfig.cmake"
+      mode: "config"
+      version: "6.11.1"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationConfig.cmake:40 (include)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:253 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    name: "Qt6PositioningQuick"
+    configs:
+      -
+        filename: "Qt6PositioningQuickConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6positioningquick-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.1"
+      version_complete: "6.11.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6PositioningQuick"
+      search_paths:
+        - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/.."
+        - "/opt/homebrew/opt/qt/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/Qt6PositioningQuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/qt6positioningquick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/qt6positioningquick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuickPrivate/qt6positioningquick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfig.cmake"
+      mode: "config"
+      version: "6.11.1"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationConfig.cmake:40 (include)"
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:253 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    name: "Qt6QuickShapes"
+    configs:
+      -
+        filename: "Qt6QuickShapesConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6quickshapes-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.1"
+      version_complete: "6.11.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QuickShapes"
+      search_paths:
+        - "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/.."
+        - "/opt/homebrew/opt/qt/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/Qt6QuickShapesConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/qt6quickshapes-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapesConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/qt6quickshapes-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapesPrivate/qt6quickshapes-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/Qt6QuickShapesConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/qt6quickshapes-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapes/Qt6QuickShapesConfig.cmake"
+      mode: "config"
+      version: "6.11.1"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/opt/qt/lib/cmake/Qt6/Qt6Config.cmake:253 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    name: "Qt6Location"
+    configs:
+      -
+        filename: "Qt6LocationConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6location-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Location"
+      search_paths:
+        - "/opt/homebrew/opt/qt/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/Qt6LocationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/pkgRedirects/qt6location-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6LocationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/qt6location-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6LocationPrivate/Qt6LocationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/opt/qt/lib/cmake/Qt6LocationPrivate/qt6location-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationConfig.cmake"
+      mode: "config"
+      version: "6.11.1"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/sherazrajput/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/homebrew/opt/qt/bin"
+        - "/Users/sherazrajput/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...

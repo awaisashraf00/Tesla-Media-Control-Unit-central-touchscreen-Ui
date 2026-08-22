@@ -304,11 +304,20 @@ Qt6GuiTools_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6Location.
+Qt6Location_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6Location
+
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6Network
 
 //The directory containing a CMake configuration file for Qt6OpenGL.
 Qt6OpenGL_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6OpenGL
+
+//The directory containing a CMake configuration file for Qt6PositioningQuick.
+Qt6PositioningQuick_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuick
+
+//The directory containing a CMake configuration file for Qt6Positioning.
+Qt6Positioning_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6Positioning
 
 //The directory containing a CMake configuration file for Qt6QmlCompilerPlusPrivateTools.
 Qt6QmlCompilerPlusPrivateTools_DIR:PATH=Qt6QmlCompilerPlusPrivateTools_DIR-NOTFOUND
@@ -333,6 +342,9 @@ Qt6Qml_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6Qml
 
 //The directory containing a CMake configuration file for Qt6QuickControls2.
 Qt6QuickControls2_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6QuickControls2
+
+//The directory containing a CMake configuration file for Qt6QuickShapes.
+Qt6QuickShapes_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6QuickShapes
 
 //The directory containing a CMake configuration file for Qt6QuickTemplates2.
 Qt6QuickTemplates2_DIR:PATH=/opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2
@@ -789,6 +801,8 @@ QT_FEATURE_graphicsframecapture:INTERNAL=ON
 QT_FEATURE_gssapi:INTERNAL=ON
 //Qt feature: gui (from target Qt6::Core)
 QT_FEATURE_gui:INTERNAL=ON
+//Qt feature: gypsy (from target Qt6::Positioning)
+QT_FEATURE_gypsy:INTERNAL=OFF
 //Qt feature: harfbuzz (from target Qt6::Gui)
 QT_FEATURE_harfbuzz:INTERNAL=ON
 //Qt feature: highdpiscaling (from target Qt6::Gui)
@@ -1112,6 +1126,8 @@ QT_FEATURE_quickcontrols2_stylekit:INTERNAL=ON
 QT_FEATURE_quickcontrols2_universal:INTERNAL=ON
 //Qt feature: quickcontrols2_windows (from target Qt6::QuickControls2)
 QT_FEATURE_quickcontrols2_windows:INTERNAL=OFF
+//Qt feature: quickshapes_designhelpers (from target Qt6::QuickShapes)
+QT_FEATURE_quickshapes_designhelpers:INTERNAL=ON
 //Qt feature: quicktemplates2_calendar (from target Qt6::QuickTemplates2)
 QT_FEATURE_quicktemplates2_calendar:INTERNAL=ON
 //Qt feature: quicktemplates2_container (from target Qt6::QuickTemplates2)
@@ -1367,6 +1383,8 @@ QT_FEATURE_windows_ioring:INTERNAL=OFF
 //Qt feature: windows_ioring_skip_builder_param_checks (from target
 // Qt6::Core)
 QT_FEATURE_windows_ioring_skip_builder_param_checks:INTERNAL=OFF
+//Qt feature: winrt_geolocation (from target Qt6::Positioning)
+QT_FEATURE_winrt_geolocation:INTERNAL=OFF
 //Qt feature: winsdkicu (from target Qt6::Core)
 QT_FEATURE_winsdkicu:INTERNAL=OFF
 //Qt feature: x86intrin (from target Qt6::Core)

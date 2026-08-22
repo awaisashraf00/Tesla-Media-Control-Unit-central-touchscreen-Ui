@@ -15,5 +15,6 @@
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
+/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
 --json
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_qmllint.json

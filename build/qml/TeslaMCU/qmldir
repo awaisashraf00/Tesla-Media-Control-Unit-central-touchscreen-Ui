@@ -3,5 +3,6 @@ typeinfo TeslaMCU.qmltypes
 prefer :/qt/qml/TeslaMCU/
 Main 1.0 qml/Main.qml
 BottomButtons 1.0 qml/bottomBar/BottomButtons.qml
+MapView 1.0 qml/Rightscreen/MapView.qml
 depends QtQuick
 

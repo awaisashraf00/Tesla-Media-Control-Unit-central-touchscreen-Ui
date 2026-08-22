@@ -15,7 +15,10 @@ find_package(Qt6 REQUIRED COMPONENTS
     Qml
     Quick
     QuickControls2
+    Positioning
+    Location
 )
+
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -43,6 +46,8 @@ qt_add_qml_module(TeslaMCU
     QML_FILES
         qml/Main.qml
         qml/bottomBar/BottomButtons.qml
+        qml/Rightscreen/MapView.qml
+        # qml/Leftscreen/BottomButtons.qml
 
 )
 
@@ -52,4 +57,6 @@ target_link_libraries(TeslaMCU PRIVATE
     Qt6::Qml
     Qt6::Quick
     Qt6::QuickControls2
+    Qt6::Location
+    Qt6::Positioning
 )

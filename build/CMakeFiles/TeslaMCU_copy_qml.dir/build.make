@@ -71,6 +71,7 @@ CMakeFiles/TeslaMCU_copy_qml: .qt/TeslaMCU_qml.txt
 .qt/TeslaMCU_qml.txt: /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/TeslaMCU_qml.txt: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml
 .qt/TeslaMCU_qml.txt: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
+.qt/TeslaMCU_qml.txt: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying TeslaMCU qml sources into build dir"
 	/opt/homebrew/bin/cmake -DFILES_INFO_PATH=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/TeslaMCU_qml.cmake -P /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

@@ -79,6 +79,9 @@ teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6gu
 teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6quick_metatypes.json
 teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6opengl_metatypes.json
 teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6quickcontrols2_metatypes.json
+teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6location_metatypes.json
+teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6positioning_metatypes.json
+teslamcu_qmltyperegistrations.cpp: /opt/homebrew/opt/qt/share/qt/metatypes/qt6positioningquick_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target TeslaMCU"
 	/opt/homebrew/opt/qt/share/qt/libexec/qmltyperegistrar --generate-qmltypes=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/TeslaMCU.qmltypes --import-name=TeslaMCU --major-version=1 --minor-version=0 @/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qmltypes/TeslaMCU_foreign_types.txt -o /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/teslamcu_qmltyperegistrations.cpp /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/meta_types/qt6teslamcu_metatypes.json
 	/opt/homebrew/bin/cmake -E make_directory /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/qmltypes
