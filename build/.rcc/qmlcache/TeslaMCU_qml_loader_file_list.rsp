@@ -1,0 +1,8 @@
+--resource
+/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qmake_TeslaMCU.qrc
+--resource
+/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0.qrc
+--resource
+/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/TeslaMCU/qml/Main.qml
+/qt/qml/TeslaMCU/qml/bottomBar/BottomButtons.qml

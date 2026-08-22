@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/TeslaMCU/">
+    <file alias="qml/Main.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml</file>
+    <file alias="qml/bottomBar/BottomButtons.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml</file>
+  </qresource>
+</RCC>
+

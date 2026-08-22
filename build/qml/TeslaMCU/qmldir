@@ -1,0 +1,7 @@
+module TeslaMCU
+typeinfo TeslaMCU.qmltypes
+prefer :/qt/qml/TeslaMCU/
+Main 1.0 qml/Main.qml
+BottomButtons 1.0 qml/bottomBar/BottomButtons.qml
+depends QtQuick
+
