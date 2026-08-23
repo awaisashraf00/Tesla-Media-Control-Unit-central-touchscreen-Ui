@@ -17,7 +17,8 @@ Window {
 
     MapView {
         anchors.top: parent.top
-        anchors.left: parent.horizontalCenter
+        anchors.left: parent.left
+        anchors.leftMargin: parent.width * 0.35
         anchors.right: parent.right
         anchors.bottom: bottomBar.top
     }

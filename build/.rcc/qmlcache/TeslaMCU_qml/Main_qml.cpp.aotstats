@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "bottom",
                             "line": 12,
                             "message": ""
@@ -47,10 +47,18 @@
                         },
                         {
                             "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "leftMargin",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 21,
+                            "line": 22,
                             "message": ""
                         },
                         {
@@ -58,7 +66,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 22,
+                            "line": 23,
                             "message": ""
                         }
                     ],
