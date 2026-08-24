@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/teslapixel">
+        <file>tesla.png</file>
+        <file>phone-call.png</file>
+        <file>car-rear.png</file>
+        <file>home.png</file>
+    </qresource>
+</RCC>

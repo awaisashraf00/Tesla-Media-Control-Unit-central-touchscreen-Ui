@@ -1661,8 +1661,10 @@
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
-		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		"/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/sherazrajput/Cpp-Projects/TeslaMCU",
 	"CROSS_CONFIG" : false,
@@ -1762,6 +1764,7 @@
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp",
+		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp",
@@ -1792,6 +1795,7 @@
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp",
+		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp",

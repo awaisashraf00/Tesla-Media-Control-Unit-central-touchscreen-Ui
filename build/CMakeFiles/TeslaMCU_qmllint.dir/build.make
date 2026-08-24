@@ -69,6 +69,7 @@ include CMakeFiles/TeslaMCU_qmllint.dir/progress.make
 CMakeFiles/TeslaMCU_qmllint: /opt/homebrew/opt/qt/bin/qmllint
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
+CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Leftscreen/LeftDashboard.qml
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
 CMakeFiles/TeslaMCU_qmllint: .rcc/qmllint/TeslaMCU.rsp
 	cd /Users/sherazrajput/Cpp-Projects/TeslaMCU && /opt/homebrew/opt/qt/bin/qmllint @/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmllint/TeslaMCU.rsp

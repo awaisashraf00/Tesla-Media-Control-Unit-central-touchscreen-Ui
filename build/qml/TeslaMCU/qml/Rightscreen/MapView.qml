@@ -42,5 +42,12 @@ Map {
         74.3587
     )
 
-    zoomLevel: 14
+    zoomLevel: 10
+
+    Rectangle {
+        anchors.fill: parent
+        color: "#000000"
+        opacity: 0.35
+        enabled: false
+    }
 }

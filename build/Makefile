@@ -363,6 +363,30 @@ TeslaMCU_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU_autogen.dir/build.make CMakeFiles/TeslaMCU_autogen.dir/build
 .PHONY : TeslaMCU_autogen/fast
 
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.o: TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.o
+
+# target to build an object file
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o
+
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.i: TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.i
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.i
+
+# target to preprocess a source file
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.i
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.i
+
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.s: TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.s
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.s
+
+# target to generate assembly for a file
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.s
+.PHONY : TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.s
+
 TeslaMCU_autogen/mocs_compilation.o: TeslaMCU_autogen/mocs_compilation.cpp.o
 .PHONY : TeslaMCU_autogen/mocs_compilation.o
 
@@ -458,6 +482,30 @@ build/.qt/rcc/qrc_qmake_TeslaMCU.s: build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.s
 build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.s
 .PHONY : build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.s
+
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.o: build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o
+
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.i: build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.i
+
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.s: build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.s
 
 build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.o: build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.o
@@ -654,6 +702,9 @@ help:
 	@echo "... generate_qmlls_build_ini_file"
 	@echo "... module_TeslaMCU_aotstats_target"
 	@echo "... TeslaMCU"
+	@echo "... TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.o"
+	@echo "... TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.i"
+	@echo "... TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.s"
 	@echo "... TeslaMCU_autogen/mocs_compilation.o"
 	@echo "... TeslaMCU_autogen/mocs_compilation.i"
 	@echo "... TeslaMCU_autogen/mocs_compilation.s"
@@ -666,6 +717,9 @@ help:
 	@echo "... build/.qt/rcc/qrc_qmake_TeslaMCU.o"
 	@echo "... build/.qt/rcc/qrc_qmake_TeslaMCU.i"
 	@echo "... build/.qt/rcc/qrc_qmake_TeslaMCU.s"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.o"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.i"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.s"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.o"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.i"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.s"

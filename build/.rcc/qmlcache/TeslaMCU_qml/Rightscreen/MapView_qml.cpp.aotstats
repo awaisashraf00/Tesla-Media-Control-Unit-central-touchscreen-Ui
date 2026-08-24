@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "center",
                             "line": 40,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method coordinate, returning QGeoCoordinate -> call to method coordinate, returning QGeoCoordinate"
@@ -51,6 +51,14 @@
                             "durationMicroseconds": 0,
                             "functionName": "fill",
                             "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 48,
                             "message": ""
                         }
                     ],

@@ -26,6 +26,7 @@ add_executable(TeslaMCU
     src/main.cpp
     src/Backend.cpp
     header_files/Backend.h
+    resources/assets.qrc
      
 )
 
@@ -46,6 +47,7 @@ qt_add_qml_module(TeslaMCU
     QML_FILES
         qml/Main.qml
         qml/bottomBar/BottomButtons.qml
+        qml/Leftscreen/LeftDashboard.qml
         qml/Rightscreen/MapView.qml
         # qml/Leftscreen/BottomButtons.qml
 

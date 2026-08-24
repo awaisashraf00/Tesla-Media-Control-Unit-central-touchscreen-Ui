@@ -751,6 +751,7 @@ TeslaMCU_autogen/timestamp: \
 	/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/4.2.1/CMakeSystem.cmake \
 	/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_autogen/moc_predefs.h \
 	/Users/sherazrajput/Cpp-Projects/TeslaMCU/header_files/Backend.h \
+	/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc \
 	/Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp \
 	/Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp \
 	/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QObject \

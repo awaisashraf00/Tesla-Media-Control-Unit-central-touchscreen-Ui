@@ -7,6 +7,15 @@ Window {
     visible: true
     title: "Tesla"
 
+    Rectangle {
+        anchors.fill: parent
+
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "#000000" }
+            GradientStop { position: 1.0; color: "#666666" }
+        }
+    }
+
     BottomButtons {
         id: bottomBar
         anchors.bottom: parent.bottom
@@ -16,10 +25,19 @@ Window {
     }
 
     MapView {
+        id: mapView
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.leftMargin: parent.width * 0.35
         anchors.right: parent.right
+        anchors.rightMargin: 9
+        anchors.bottom: bottomBar.top
+    }
+// I@m.@w@is.007
+    LeftDashboard{
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: mapView.left
         anchors.bottom: bottomBar.top
     }
 }

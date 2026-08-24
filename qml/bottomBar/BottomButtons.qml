@@ -14,5 +14,24 @@ Item {
             GradientStop { position: 0.0; color: "#1f2937" }
             GradientStop { position: 1.0; color: "#000000" }
         }
+        
+        Image {
+            id: homebutton
+            anchors.centerIn: parent
+            source: "qrc:/teslapixel/home.png"
+            fillMode: Image.PreserveAspectFit
+        }
+        
+        Image {
+            id:carbutton
+            anchors.left: parent.left
+            anchors.leftMargin : 30
+            anchors.verticalCenter : parent.verticalCenter
+            source: "qrc:/teslapixel/car-rear.png"
+            fillMode: Image.PreserveAspectFit
+        }
     }
+
+
+
 }

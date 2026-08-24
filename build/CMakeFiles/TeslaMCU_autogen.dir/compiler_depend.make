@@ -753,6 +753,7 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   CMakeFiles/4.2.1/CMakeSystem.cmake \
   TeslaMCU_autogen/moc_predefs.h \
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/header_files/Backend.h \
+  /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc \
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp \
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QObject \
@@ -3763,16 +3764,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginAdditionalTargetInfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-release.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginTargetsPrecheck.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__system_error/errc.h:
@@ -3869,6 +3860,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp:
 
+/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc:
+
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/header_files/Backend.h:
 
 CMakeFiles/4.2.1/CMakeSystem.cmake:
@@ -3926,6 +3919,12 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-release.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginTargetsPrecheck.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h:
 
@@ -4304,6 +4303,10 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsStyleKitpluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
