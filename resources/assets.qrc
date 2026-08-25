@@ -4,5 +4,7 @@
         <file>phone-call.png</file>
         <file>car-rear.png</file>
         <file>home.png</file>
+        <file>lock-2.png</file>
+        <file>lock-3.png</file>
     </qresource>
 </RCC>

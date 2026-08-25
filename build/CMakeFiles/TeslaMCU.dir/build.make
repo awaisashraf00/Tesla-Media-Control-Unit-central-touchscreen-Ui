@@ -166,13 +166,28 @@ qml/TeslaMCU/TeslaMCU.qmltypes: teslamcu_qmltyperegistrations.cpp
 .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats
 
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: /opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/UpperControls.qml
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: .qt/rcc/qmake_TeslaMCU.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: .qt/rcc/TeslaMCU_raw_qml_0.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: .qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: qml/TeslaMCU/TeslaMCU.qmltypes
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp: qml/TeslaMCU/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp, .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats"
+	/opt/homebrew/bin/cmake -E make_directory /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen
+	/opt/homebrew/opt/qt/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/TeslaMCU/qml/Rightscreen/UpperControls.qml -I /Users/sherazrajput/Cpp-Projects/TeslaMCU/build -I /opt/homebrew/opt/qt/share/qt/qml -i /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qmldir --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qmake_TeslaMCU.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0.qrc --resource /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=TeslaMCU(TeslaMCU)" -o /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/UpperControls.qml
+
+.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats
+
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.qml
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Leftscreen/LeftDashboard.qml
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
+.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/UpperControls.qml
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: .qt/rcc/TeslaMCU_raw_qml_0.qrc
 .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp: /opt/homebrew/opt/qt/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running rcc for resource TeslaMCU_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource TeslaMCU_raw_qml_0"
 	/opt/homebrew/opt/qt/share/qt/libexec/rcc --output /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp --name TeslaMCU_raw_qml_0 /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0.qrc
 
 .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp: qml/TeslaMCU/qml/qmldir
@@ -181,33 +196,35 @@ qml/TeslaMCU/TeslaMCU.qmltypes: teslamcu_qmltyperegistrations.cpp
 .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp: qml/TeslaMCU/qml/Rightscreen/qmldir
 .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp: .qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
 .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp: /opt/homebrew/opt/qt/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource TeslaMCU_raw_qml_0_extra_qmldirs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running rcc for resource TeslaMCU_raw_qml_0_extra_qmldirs"
 	/opt/homebrew/opt/qt/share/qt/libexec/rcc --output /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp --name TeslaMCU_raw_qml_0_extra_qmldirs /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/TeslaMCU_raw_qml_0_extra_qmldirs.qrc
 
 TeslaMCU_autogen/timestamp: /opt/homebrew/opt/qt/share/qt/libexec/moc
 TeslaMCU_autogen/timestamp: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Automatic MOC and UIC for target TeslaMCU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Automatic MOC and UIC for target TeslaMCU"
 	/opt/homebrew/bin/cmake -E cmake_autogen /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/TeslaMCU_autogen.dir/AutogenInfo.json ""
 	/opt/homebrew/bin/cmake -E touch /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_autogen/timestamp
 
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: CMakeFiles/TeslaMCU_autogen.dir/AutoRcc_assets_3YJK5W5UP7_Info.json
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/tesla.png
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/lock-3.png
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/car-rear.png
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/phone-call.png
+TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/lock-2.png
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/home.png
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /opt/homebrew/opt/qt/share/qt/libexec/rcc
 TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp: /opt/homebrew/opt/qt/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Automatic RCC for resources/assets.qrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Automatic RCC for resources/assets.qrc"
 	/opt/homebrew/bin/cmake -E cmake_autorcc /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/TeslaMCU_autogen.dir/AutoRcc_assets_3YJK5W5UP7_Info.json 
 
 meta_types/TeslaMCU_json_file_list.txt: /opt/homebrew/opt/qt/share/qt/libexec/cmake_automoc_parser
 meta_types/TeslaMCU_json_file_list.txt: TeslaMCU_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running AUTOMOC file extraction for target TeslaMCU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running AUTOMOC file extraction for target TeslaMCU"
 	/opt/homebrew/opt/qt/share/qt/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/TeslaMCU_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/TeslaMCU_autogen.dir/AutogenInfo.json --output-file-path /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/meta_types/TeslaMCU_json_file_list.txt --timestamp-file-path /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/meta_types/TeslaMCU_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_autogen/include
 
 meta_types/qt6teslamcu_metatypes.json: meta_types/qt6teslamcu_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating meta_types/qt6teslamcu_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating meta_types/qt6teslamcu_metatypes.json"
 	/opt/homebrew/bin/cmake -E true
 
 CMakeFiles/TeslaMCU.dir/codegen:
@@ -216,7 +233,7 @@ CMakeFiles/TeslaMCU.dir/codegen:
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o: TeslaMCU_autogen/mocs_compilation.cpp
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_autogen/mocs_compilation.cpp
 
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.i: cmake_force
@@ -230,7 +247,7 @@ CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/src/main.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/src/main.cpp.o: /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp
 CMakeFiles/TeslaMCU.dir/src/main.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TeslaMCU.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TeslaMCU.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/src/main.cpp.o -MF CMakeFiles/TeslaMCU.dir/src/main.cpp.o.d -o CMakeFiles/TeslaMCU.dir/src/main.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp
 
 CMakeFiles/TeslaMCU.dir/src/main.cpp.i: cmake_force
@@ -244,7 +261,7 @@ CMakeFiles/TeslaMCU.dir/src/main.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp
 CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o -MF CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o.d -o CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp
 
 CMakeFiles/TeslaMCU.dir/src/Backend.cpp.i: cmake_force
@@ -258,7 +275,7 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o: teslamcu_qmltyperegistrations.cpp
 CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o -MF CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o.d -o CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/teslamcu_qmltyperegistrations.cpp
 
 CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.i: cmake_force
@@ -272,7 +289,7 @@ CMakeFiles/TeslaMCU.dir/teslamcu_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o: .qt/rcc/qrc_qmake_TeslaMCU.cpp
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.i: cmake_force
@@ -286,7 +303,7 @@ CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_qmake_TeslaMCU.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o: .rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.i: cmake_force
@@ -300,7 +317,7 @@ CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp.s: cmak
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.i: cmake_force
@@ -314,7 +331,7 @@ CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.s: cmake_f
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.i: cmake_force
@@ -328,7 +345,7 @@ CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o: .rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.i: cmake_force
@@ -342,7 +359,7 @@ CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboar
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.i: cmake_force
@@ -353,10 +370,24 @@ CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.s
 
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp
+
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp > CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i
+
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp -o CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s
+
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o: .qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.i: cmake_force
@@ -370,7 +401,7 @@ CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.s: cmake_force
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o: .qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o -MF CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o.d -o CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp
 
 CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.i: cmake_force
@@ -384,7 +415,7 @@ CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.s
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o: CMakeFiles/TeslaMCU.dir/flags.make
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o: TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o: CMakeFiles/TeslaMCU.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o -MF CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o.d -o CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o -c /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp
 
 CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.i: cmake_force
@@ -407,6 +438,7 @@ TeslaMCU_OBJECTS = \
 "CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o" \
 "CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o" \
 "CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o" \
+"CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o" \
 "CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o" \
 "CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o" \
 "CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o"
@@ -424,6 +456,7 @@ TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.
 TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o
 TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.o
 TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.o
+TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o
 TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0.cpp.o
 TeslaMCU: CMakeFiles/TeslaMCU.dir/build/.qt/rcc/qrc_TeslaMCU_raw_qml_0_extra_qmldirs.cpp.o
 TeslaMCU: CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/3YJK5W5UP7/qrc_assets.cpp.o
@@ -439,7 +472,7 @@ TeslaMCU: /opt/homebrew/opt/qt/lib/QtQml.framework/Versions/A/QtQml
 TeslaMCU: /opt/homebrew/opt/qt/lib/QtNetwork.framework/Versions/A/QtNetwork
 TeslaMCU: /opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore
 TeslaMCU: CMakeFiles/TeslaMCU.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable TeslaMCU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable TeslaMCU"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TeslaMCU.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -459,6 +492,8 @@ CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats
+CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp
+CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats
 CMakeFiles/TeslaMCU.dir/depend: .rcc/qmlcache/TeslaMCU_qmlcache_loader.cpp

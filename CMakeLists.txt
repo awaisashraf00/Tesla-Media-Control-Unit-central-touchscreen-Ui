@@ -49,7 +49,7 @@ qt_add_qml_module(TeslaMCU
         qml/bottomBar/BottomButtons.qml
         qml/Leftscreen/LeftDashboard.qml
         qml/Rightscreen/MapView.qml
-        # qml/Leftscreen/BottomButtons.qml
+        qml/Rightscreen/UpperControls.qml
 
 )
 

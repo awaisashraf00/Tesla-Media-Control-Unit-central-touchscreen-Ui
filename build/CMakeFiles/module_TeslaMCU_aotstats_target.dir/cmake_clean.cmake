@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   ".rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats"
   ".rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp"
   ".rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats"
+  ".rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp"
+  ".rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats"
   ".rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp"
   ".rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats"
   ".rcc/qmlcache/module_TeslaMCU.aotstats"

@@ -632,6 +632,7 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/stdexcept \
@@ -647,6 +648,7 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/typeinfo \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/variant \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/vector \
@@ -756,14 +758,21 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/assets.qrc \
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp \
   /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/main.cpp \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QDateTime \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QString \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20bit.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20utility.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q23type_traits.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qalloc.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
@@ -772,11 +781,13 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -787,8 +798,13 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -798,14 +814,17 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmap.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmath.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
@@ -822,6 +841,11 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
@@ -846,7 +870,9 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtdeprecationdefinitions.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -858,6 +884,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
@@ -2030,8 +2058,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-release.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2AdditionalTargetInfo.cmake:
@@ -2116,8 +2142,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlMeta/Qt6QmlMetaDependencies.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersionImpl.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersion.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlMeta/Qt6QmlMetaAdditionalTargetInfo.cmake:
@@ -2143,8 +2167,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QmlConfigVersion.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets-release.cmake:
 
@@ -2358,8 +2380,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargetsPrecheck.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginConfig.cmake:
@@ -2426,41 +2446,41 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginAdditionalTargetInfo.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargetsPrecheck.cmake:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-release.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginAdditionalTargetInfo.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets.cmake:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets-release.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginConfig.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets.cmake:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginConfig.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__vector/vector.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginTargetsPrecheck.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginTargets-release.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__functional/mem_fn.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargetsPrecheck.cmake:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/includes.h:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets-release.cmake:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargetsPrecheck.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginAdditionalTargetInfo.cmake:
 
@@ -2490,8 +2510,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake:
-
 /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
@@ -2504,8 +2522,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginConfig.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginTargets.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginConfig.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargetsPrecheck.cmake:
@@ -2517,8 +2533,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/version:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginAdditionalTargetInfo.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargetsPrecheck.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h:
 
@@ -2674,14 +2688,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargetsPrecheck.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets-release.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_time_t.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-release.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginTargetsPrecheck.cmake:
@@ -2691,12 +2697,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginTargets-release.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6GuiTargetsPrecheck.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargetsPrecheck.cmake:
 
@@ -2816,10 +2816,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargetsPrecheck.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlTargets-release.cmake:
@@ -2898,12 +2894,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets.cmake:
 
-/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargetsPrecheck.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginTargetsPrecheck.cmake:
@@ -2915,6 +2905,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6LottiepluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/stdlib.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
@@ -2998,6 +2990,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q23utility.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Positioning/Qt6PositioningVersionlessAliasTargets.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-release.cmake:
@@ -3011,6 +3005,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersion.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QDateTime:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Positioning/Qt6PositioningTargets.cmake:
 
@@ -3061,8 +3057,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationTargetsPrecheck.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginConfig.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
@@ -3182,14 +3176,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptVersionlessAliasTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_timespec.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagehelperspluginTargetsPrecheck.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets-release.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake:
@@ -3218,7 +3204,9 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargetsPrecheck.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QTiffPluginTargetsPrecheck.cmake:
 
@@ -3300,6 +3288,14 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__vector/vector.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
@@ -3346,15 +3342,11 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargetsPrecheck.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
 
@@ -3422,15 +3414,11 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationAdditionalTargetInfo.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/21/include/__stdarg_va_list.h:
 
@@ -3640,6 +3628,10 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qvariant.h:
+
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
@@ -3647,8 +3639,6 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-release.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h:
 
@@ -3712,9 +3702,19 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2iosstyleimplpluginTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfigVersionImpl.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_ino_t.h:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargetsPrecheck.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJp2PluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
 
@@ -3744,6 +3744,16 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Location/Qt6LocationDependencies.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_time_t.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-release.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qhash.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qmap.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargetsPrecheck.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/void_t.h:
@@ -3764,29 +3774,41 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginAdditionalTargetInfo.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__bit/countl.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__system_error/errc.h:
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__utility/scope_guard.h:
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlTargets.cmake:
 
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/copysign.h:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/mutex:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h:
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qforeach.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__tuple/tuple_like_no_subrange.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickDependencies.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qfloat16.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qflags.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6GuiTargetsPrecheck.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qeventloop.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdebug.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__atomic/aliases.h:
 
@@ -3820,6 +3842,8 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qchar.h:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcalendar.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickpluginTargets.cmake:
@@ -3829,6 +3853,10 @@ TeslaMCU_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.
 /Users/sherazrajput/Cpp-Projects/TeslaMCU/CMakeLists.txt:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h:
 
@@ -3884,19 +3912,13 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/21/include/__stdarg___gnuc_va_list.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/gamma.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-release.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/string_view.h:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__new/global_typed_new_delete.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryNmeaPluginConfig.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/qos.h:
 
@@ -4030,6 +4052,10 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets.cmake:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdatetime.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginTargetsPrecheck.cmake:
@@ -4114,8 +4140,6 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/_time.h:
@@ -4135,6 +4159,10 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/stddef.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/set:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargetsPrecheck.cmake:
 
@@ -4194,6 +4222,10 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/cstdlib:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qalloc.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/add_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
@@ -4220,10 +4252,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__tuple/tuple_element.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/sstream.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginConfig.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__numeric/ranges_iota.h:
@@ -4240,6 +4268,8 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets.cmake:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickdelegatespluginTargets.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
@@ -4249,6 +4279,10 @@ TeslaMCU_autogen/moc_predefs.h:
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/error_functions.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_symbol_aliasing.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__ranges/size.h:
 
@@ -4282,8 +4316,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets.cmake:
-
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginTargetsPrecheck.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__utility/forward.h:
@@ -4299,6 +4331,12 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6DBus/Qt6DBusTargetsPrecheck.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/mutex:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
@@ -4358,6 +4396,8 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_union.h:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QTimer:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/climits:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2macosstyleimplpluginTargets.cmake:
@@ -4367,6 +4407,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_fd_setsize.h:
 
@@ -4413,6 +4455,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_same.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtimer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__charconv/traits.h:
 
@@ -4500,6 +4544,8 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargetsPrecheck.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/TargetConditionals.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
@@ -4528,10 +4574,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
 
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__bit/countl.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake:
@@ -4557,6 +4599,12 @@ TeslaMCU_autogen/moc_predefs.h:
 /opt/homebrew/opt/qt/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__configuration/availability.h:
+
+/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/arm/endian.h:
 
@@ -4612,6 +4660,10 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/copysign.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
@@ -4636,8 +4688,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
@@ -4657,10 +4707,6 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__thread/support/pthread.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlTargets.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qforeach.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
@@ -4684,6 +4730,14 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__system_error/error_category.h:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6Quick3DXrpluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__utility/scope_guard.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qglobal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__system_error/errc.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-release.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6QmlModels/Qt6QmlModelsDependencies.cmake:
@@ -4693,8 +4747,6 @@ TeslaMCU_autogen/moc_predefs.h:
 /opt/homebrew/opt/qt/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qflags.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/chrono:
 
@@ -4812,6 +4864,10 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/sstream.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
@@ -4846,14 +4902,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/vector.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__iterator/distance.h:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/temp_value.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
@@ -4879,6 +4927,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/unordered_set:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
@@ -4918,11 +4968,13 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargetsPrecheck.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/clocale:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-release.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/gamma.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginAdditionalTargetInfo.cmake:
 
@@ -4973,6 +5025,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/vector:
 
@@ -5092,6 +5146,14 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__memory/out_ptr.h:
 
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__iterator/distance.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/vector.h:
+
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginTargetsPrecheck.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__chrono/duration.h:
@@ -5105,6 +5167,20 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/subrange.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptVersionlessAliasTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets-release.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_types/_timespec.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagehelperspluginTargetsPrecheck.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/Qt6QmlConfigVersionImpl.cmake:
 
@@ -5184,11 +5260,23 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QObject:
 
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qlocale.h:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets-release.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Gui/Qt6QSvgPluginTargetsPrecheck.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake:
+
+/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargetsPrecheck.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
 /opt/homebrew/lib/cmake/Qt6/FindWrapOpenGL.cmake:
 
@@ -5247,8 +5335,6 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/for_each_n_segment.h:
-
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginAdditionalTargetInfo.cmake:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6protobufquickpluginTargets-release.cmake:
 
@@ -5335,6 +5421,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__configuration/language.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/q20utility.h:
 
 /opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginTargets.cmake:
 
@@ -5454,8 +5542,6 @@ TeslaMCU_autogen/moc_predefs.h:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
-/opt/homebrew/opt/qt/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__chrono/system_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/types.h:
@@ -5571,10 +5657,6 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__new/exceptions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
-
-/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/sys/_symbol_aliasing.h:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
@@ -5755,6 +5837,8 @@ TeslaMCU_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__numeric/iota.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
+
+/opt/homebrew/Cellar/qtbase/6.11.1/lib/QtCore.framework/Versions/A/Headers/QString:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__type_traits/decay.h:
 

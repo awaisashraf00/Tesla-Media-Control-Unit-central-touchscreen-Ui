@@ -4,6 +4,7 @@
     <file alias="qml/bottomBar/BottomButtons.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml</file>
     <file alias="qml/Leftscreen/LeftDashboard.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Leftscreen/LeftDashboard.qml</file>
     <file alias="qml/Rightscreen/MapView.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml</file>
+    <file alias="qml/Rightscreen/UpperControls.qml">/Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/UpperControls.qml</file>
   </qresource>
 </RCC>
 

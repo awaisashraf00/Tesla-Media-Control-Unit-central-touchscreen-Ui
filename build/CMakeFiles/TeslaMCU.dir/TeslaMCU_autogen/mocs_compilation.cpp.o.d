@@ -935,6 +935,34 @@ CMakeFiles/TeslaMCU.dir/TeslaMCU_autogen/mocs_compilation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtimer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbasictimer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qeventloop.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdeadlinetimer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvariant.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdebug.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtextstream.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qsharedpointer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qshareddata.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmap.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qshareddata_impl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qset.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qhash.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvarlengtharray.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qalloc.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q23utility.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20utility.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmochelpers.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmocconstants.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20algorithm.h

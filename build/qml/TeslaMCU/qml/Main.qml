@@ -26,6 +26,7 @@ Window {
 
     MapView {
         id: mapView
+        backend: upper_control
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.leftMargin: parent.width * 0.35
@@ -33,8 +34,8 @@ Window {
         anchors.rightMargin: 9
         anchors.bottom: bottomBar.top
     }
-// I@m.@w@is.007
     LeftDashboard{
+        id: leftbar
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.right: mapView.left

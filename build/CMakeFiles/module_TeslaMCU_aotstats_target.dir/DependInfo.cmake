@@ -15,6 +15,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp.aotstats" "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Leftscreen/LeftDashboard_qml.cpp"
   "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp.aotstats" "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Main_qml.cpp"
   "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.aotstats" "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp"
+  "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.aotstats" "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp"
   "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.aotstats" "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp"
   )
 

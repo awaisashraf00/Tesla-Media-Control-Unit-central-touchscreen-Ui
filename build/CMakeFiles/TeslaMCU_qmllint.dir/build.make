@@ -71,6 +71,7 @@ CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Main.
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/bottomBar/BottomButtons.qml
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Leftscreen/LeftDashboard.qml
 CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/MapView.qml
+CMakeFiles/TeslaMCU_qmllint: /Users/sherazrajput/Cpp-Projects/TeslaMCU/qml/Rightscreen/UpperControls.qml
 CMakeFiles/TeslaMCU_qmllint: .rcc/qmllint/TeslaMCU.rsp
 	cd /Users/sherazrajput/Cpp-Projects/TeslaMCU && /opt/homebrew/opt/qt/bin/qmllint @/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmllint/TeslaMCU.rsp
 

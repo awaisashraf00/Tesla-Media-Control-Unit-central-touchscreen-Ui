@@ -555,6 +555,30 @@ build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.cpp.s
 
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.o: build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o
+
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.i: build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.i
+
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.s: build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeslaMCU.dir/build.make CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.s
+
 build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.o: build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.o
 
@@ -726,6 +750,9 @@ help:
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.o"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.i"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/MapView_qml.s"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.o"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.i"
+	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.s"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.o"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.i"
 	@echo "... build/.rcc/qmlcache/TeslaMCU_qml/bottomBar/BottomButtons_qml.s"

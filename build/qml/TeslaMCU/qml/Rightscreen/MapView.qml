@@ -5,6 +5,8 @@ import QtPositioning
 Map {
     id: map
 
+    property var backend
+
     MouseArea {
         anchors.fill: parent
         enabled: true
@@ -38,12 +40,19 @@ Map {
     }
 
     center: QtPositioning.coordinate(
-        31.5204,
-        74.3587
+        122.1430,
+        37.4419
     )
 
     zoomLevel: 10
 
+
+    UpperControls {
+        id: upperControls
+        backend: map.backend
+        z: 1
+    }
+    
     Rectangle {
         anchors.fill: parent
         color: "#000000"

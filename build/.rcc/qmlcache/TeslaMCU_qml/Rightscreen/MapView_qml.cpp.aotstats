@@ -10,7 +10,7 @@
                             "column": 13,
                             "durationMicroseconds": 0,
                             "functionName": "center",
-                            "line": 40,
+                            "line": 42,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method coordinate, returning QGeoCoordinate -> call to method coordinate, returning QGeoCoordinate"
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onPressed",
-                            "line": 16,
+                            "line": 18,
                             "message": ""
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onPressed",
-                            "line": 16,
+                            "line": 18,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "onPositionChanged",
-                            "line": 21,
+                            "line": 23,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "onPositionChanged",
-                            "line": 21,
+                            "line": 23,
                             "message": ""
                         },
                         {
@@ -50,7 +50,15 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 9,
+                            "line": 11,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "backend",
+                            "line": 52,
                             "message": ""
                         },
                         {
@@ -58,7 +66,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 48,
+                            "line": 57,
                             "message": ""
                         }
                     ],

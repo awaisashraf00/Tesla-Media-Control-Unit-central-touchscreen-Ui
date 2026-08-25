@@ -10,8 +10,10 @@
 	"INPUTS" : 
 	[
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/tesla.png",
+		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/lock-3.png",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/car-rear.png",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/phone-call.png",
+		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/lock-2.png",
 		"/Users/sherazrajput/Cpp-Projects/TeslaMCU/resources/home.png"
 	],
 	"LOCK_FILE" : "/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/CMakeFiles/TeslaMCU_autogen.dir/AutoRcc_assets_3YJK5W5UP7_Lock.lock",

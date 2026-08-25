@@ -2,9 +2,112 @@
     "classes": [
         {
             "className": "BACKEND",
-            "lineNumber": 3,
+            "lineNumber": 6,
             "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 9,
+                    "name": "car_locked",
+                    "notify": "Car_is_locked",
+                    "override": false,
+                    "read": "car_locked",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "set_car_locked"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 10,
+                    "name": "temprature",
+                    "notify": "temp_checked",
+                    "override": false,
+                    "read": "temprature",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "set_temprature"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 11,
+                    "name": "user_name",
+                    "notify": "name_set",
+                    "override": false,
+                    "read": "user_name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "set_user_name"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 12,
+                    "name": "current_time",
+                    "notify": "time_changed",
+                    "override": false,
+                    "read": "current_time",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false
+                }
+            ],
             "qualifiedClassName": "BACKEND",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 35,
+                    "name": "Car_is_locked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 36,
+                    "name": "temp_checked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 37,
+                    "name": "name_set",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 38,
+                    "name": "time_changed",
+                    "returnType": "void"
+                }
+            ],
             "superClasses": [
                 {
                     "access": "public",

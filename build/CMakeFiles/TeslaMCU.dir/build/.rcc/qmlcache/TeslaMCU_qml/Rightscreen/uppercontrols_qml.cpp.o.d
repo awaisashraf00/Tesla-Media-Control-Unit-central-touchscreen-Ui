@@ -1,10 +1,8 @@
-CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
-  /Users/sherazrajput/Cpp-Projects/TeslaMCU/src/Backend.cpp \
-  /Users/sherazrajput/Cpp-Projects/TeslaMCU/header_files/Backend.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QObject \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobject.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qnamespace.h \
+CMakeFiles/TeslaMCU.dir/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp.o: \
+  /Users/sherazrajput/Cpp-Projects/TeslaMCU/build/.rcc/qmlcache/TeslaMCU_qml/Rightscreen/UpperControls_qml.cpp \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlprivate.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qjsprimitivevalue.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qtqmlglobal.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qglobal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -710,6 +708,14 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtresource.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qttranslation.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qversiontagging.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qtqml-config.h \
+  /opt/homebrew/opt/qt/lib/QtNetwork.framework/Headers/qtnetworkglobal.h \
+  /opt/homebrew/opt/qt/lib/QtNetwork.framework/Headers/qtnetwork-config.h \
+  /opt/homebrew/opt/qt/lib/QtNetwork.framework/Headers/qtnetworkexports.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qtqmlexports.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qjsnumbercoercion.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstring.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qchar.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcompare.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstdlibdetection.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcomparehelpers.h \
@@ -858,14 +864,11 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmetamacros.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstring.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qchar.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringview.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbytearray.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qrefcount.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qnamespace.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmetamacros.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qarraydata.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qpair.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qarraydatapointer.h \
@@ -887,7 +890,15 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringbuilder.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringconverter.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringconverter_base.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlist.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvariant.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmetatype.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatastream.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiodevicebase.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qscopedpointer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qfloat16.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
@@ -906,18 +917,9 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiterator.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbytearraylist.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringlist.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmath.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qalgorithms.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20bit.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringmatcher.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qscopedpointer.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmetatype.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatastream.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiodevicebase.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qfloat16.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmath.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtformat_impl.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiterable.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtaggedpointer.h \
@@ -929,31 +931,22 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/map.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/set.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobject_impl.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbindingstorage.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QString \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QTimer \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtimer.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbasictimer.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qeventloop.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdeadlinetimer.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QDateTime \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatetime.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvariant.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtextstream.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qsharedpointer.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qshareddata.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlist.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiterator.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbytearraylist.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringlist.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qstringmatcher.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmap.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qshareddata_impl.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qset.h \
@@ -961,4 +954,36 @@ CMakeFiles/TeslaMCU.dir/src/Backend.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qalloc.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q23utility.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20utility.h
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20utility.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobject.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qobject_impl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbindingstorage.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qjsvalue.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmllist.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlparserstatus.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlpropertyvaluesource.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmetasequence.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiterable_impl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qmetaobject.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qpointer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qurl.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtyperevision.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qversionnumber.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qspan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20iterator.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtimezone.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qjsengine.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qjsmanagedvalue.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmldebug.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlcomponent.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqml.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlregistration.h \
+  /opt/homebrew/opt/qt/include/QtQmlIntegration/qqmlintegration.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlerror.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlcontext.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlengine.h \
+  /opt/homebrew/opt/qt/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h
