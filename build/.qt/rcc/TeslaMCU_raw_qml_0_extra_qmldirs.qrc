@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/TeslaMCU/">
-    <file alias="qml/qmldir">/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/qmldir</file>
-    <file alias="qml/bottomBar/qmldir">/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/bottomBar/qmldir</file>
-    <file alias="qml/Leftscreen/qmldir">/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/Leftscreen/qmldir</file>
-    <file alias="qml/Rightscreen/qmldir">/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qml/Rightscreen/qmldir</file>
-  </qresource>
-</RCC>
-

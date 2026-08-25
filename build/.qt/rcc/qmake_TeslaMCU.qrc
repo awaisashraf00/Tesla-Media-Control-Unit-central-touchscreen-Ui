@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/TeslaMCU">
-    <file alias="qmldir">/Users/sherazrajput/Cpp-Projects/TeslaMCU/build/qml/TeslaMCU/qmldir</file>
-  </qresource>
-</RCC>
-
