@@ -53,10 +53,20 @@ Map {
         z: 1
     }
     
+    Searchbar {
+        id: searcharea
+        backend: map.backend
+        anchors.left: map.left
+        anchors.top: map.top
+        anchors.leftMargin: 10
+        anchors.topMargin: 50
+        z: 1
+    }
+    
     Rectangle {
         anchors.fill: parent
         color: "#000000"
-        opacity: 0.35
+        opacity: 0.05
         enabled: false
     }
 }

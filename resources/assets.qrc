@@ -6,5 +6,6 @@
         <file>home.png</file>
         <file>lock-2.png</file>
         <file>lock-3.png</file>
+        <file>user.png</file>
     </qresource>
 </RCC>

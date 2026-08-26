@@ -11,8 +11,8 @@ Item {
         id: upperbuttons
         radius: 15
         color: "#C7C5C5"
-        width: 300
-        height: 20
+        width: 350
+        height: 30
         anchors {
             left: parent.left
             top: parent.top
@@ -37,39 +37,54 @@ Item {
                 }
             }
         }
-
-        Text{
-            id: timing
-            color: "#111111"
-            font.bold: true
-            text: backend ? backend.current_time : "Not uploaded"
-            anchors.left: lock_unlock.right
-            anchors.verticalCenter: parent.verticalCenter
-            width:55
-            height: parent.height - 4
-            anchors.leftMargin: 10
-        }
+    Rectangle{
+        id: timing
+        color:"Black"
+        width : 85
+        radius:15
+        anchors.leftMargin: 10
+        anchors.left: lock_unlock.right
+        anchors.verticalCenter: parent.verticalCenter
+        height: parent.height - 4
+            Text{
+                text: backend ? backend.current_time : "Not uploaded"
+                width:55
+                font.bold: true
+                color: "lightGreen"
+                anchors.centerIn:parent
+                
+            }
+    }
         
         Text{
             id: temprature
             font.bold: true
-            text: backend.temprature + "*"
+            text: backend.temprature + "*C"
             anchors.left: timing.right
             anchors.verticalCenter: parent.verticalCenter
             width: parent.height - 4
-            height: parent.height - 4
             anchors.leftMargin: 10
         }
         
-        // Image {
-        //     id: lock_unlock
-        //     anchors.left: parent.left
-        //     anchors.leftMargin: 10
-        //     anchors.verticalCenter: parent.verticalCenter
-        //     width: parent.height - 4
-        //     height: parent.height - 4
-        //     source: "qrc:/teslapixel/lock-2.png"
-        //     fillMode: Image.PreserveAspectFit
-        // }
+        Image {
+            id: profile
+            anchors.left: temprature.right
+            anchors.leftMargin: 20
+            anchors.verticalCenter: parent.verticalCenter
+            width: parent.height - 4
+            height: parent.height - 4
+            source: "qrc:/teslapixel/user.png"
+            fillMode: Image.PreserveAspectFit
+        }
+        Text{
+            
+            id: username
+            font.bold: true
+            text: backend.user_name
+            anchors.left: profile.right
+            anchors.verticalCenter: parent.verticalCenter
+            width: parent.height - 4
+            anchors.leftMargin: 10
+        }
     }
 }

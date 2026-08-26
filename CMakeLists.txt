@@ -50,6 +50,7 @@ qt_add_qml_module(TeslaMCU
         qml/Leftscreen/LeftDashboard.qml
         qml/Rightscreen/MapView.qml
         qml/Rightscreen/UpperControls.qml
+        qml/Rightscreen/Searchbar.qml
 
 )
 
