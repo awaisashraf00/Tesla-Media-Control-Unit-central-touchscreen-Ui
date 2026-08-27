@@ -59,7 +59,7 @@ Item {
         Text{
             id: temprature
             font.bold: true
-            text: backend.temprature + "*C"
+            text: backend ? backend.temprature + "°C" : "--°C"
             anchors.left: timing.right
             anchors.verticalCenter: parent.verticalCenter
             width: parent.height - 4
@@ -80,7 +80,7 @@ Item {
             
             id: username
             font.bold: true
-            text: backend.user_name
+            text: backend ? backend.user_name : "Guest"
             anchors.left: profile.right
             anchors.verticalCenter: parent.verticalCenter
             width: parent.height - 4

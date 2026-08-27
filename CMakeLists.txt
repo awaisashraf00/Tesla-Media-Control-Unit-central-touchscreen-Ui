@@ -26,6 +26,8 @@ add_executable(TeslaMCU
     src/main.cpp
     src/Backend.cpp
     header_files/Backend.h
+    header_files/temprature.h
+    src/temprature.cpp
     resources/assets.qrc
      
 )
@@ -51,6 +53,7 @@ qt_add_qml_module(TeslaMCU
         qml/Rightscreen/MapView.qml
         qml/Rightscreen/UpperControls.qml
         qml/Rightscreen/Searchbar.qml
+        qml/Rightscreen/Musicbar.qml
 
 )
 

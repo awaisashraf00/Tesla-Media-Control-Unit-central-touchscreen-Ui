@@ -50,7 +50,7 @@ Map {
     UpperControls {
         id: upperControls
         backend: map.backend
-        z: 1
+        z: 2
     }
     
     Searchbar {
@@ -60,13 +60,20 @@ Map {
         anchors.top: map.top
         anchors.leftMargin: 10
         anchors.topMargin: 50
-        z: 1
+        z: 2
+    }
+
+    Musicbar{
+        id: musicBar
+        anchors.bottom: parent.bottom
+        z: 2
     }
     
     Rectangle {
         anchors.fill: parent
         color: "#000000"
-        opacity: 0.05
+        opacity: 0.35
         enabled: false
+        z: 1
     }
 }

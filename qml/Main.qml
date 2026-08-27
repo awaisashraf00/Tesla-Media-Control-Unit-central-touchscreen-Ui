@@ -11,13 +11,14 @@ Window {
         anchors.fill: parent
 
         gradient: Gradient {
-            GradientStop { position: 0.0; color: "DarkGrey" }
+            GradientStop { position: 0.0; color: "#262626" }
             GradientStop { position: 1.0; color: "#666666" }
         }
     }
 
     BottomButtons {
         id: bottomBar
+        temp_Unit:Temprature_Controls
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right

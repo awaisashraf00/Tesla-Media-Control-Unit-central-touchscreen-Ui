@@ -7,5 +7,11 @@
         <file>lock-2.png</file>
         <file>lock-3.png</file>
         <file>user.png</file>
+        <file>left-arrow.png</file>
+        <file>right-arrow.png</file>
+        <file>play-buttton.png</file>
+        <file>pause.png</file>
+        <file>previous.png</file>
+        <file>next.png</file>
     </qresource>
 </RCC>

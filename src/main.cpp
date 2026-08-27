@@ -1,4 +1,5 @@
 #include <Backend.h>
+#include <temprature.h>
 #include <QQmlContext>
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -10,7 +11,9 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
     BACKEND upper_controls;
+    TEMPRATURE_CONTROLS temp_unit;
     engine.rootContext()->setContextProperty("upper_control", &upper_controls);
+    engine.rootContext()->setContextProperty("Temprature_Controls", &temp_unit);
     engine.loadFromModule("TeslaMCU", "Main");
     if (engine.rootObjects().isEmpty()){return -1;}
 
