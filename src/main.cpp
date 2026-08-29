@@ -1,5 +1,6 @@
 #include <Backend.h>
 #include <temprature.h>
+#include <MusicController.h>
 #include <QQmlContext>
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -12,8 +13,10 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     BACKEND upper_controls;
     TEMPRATURE_CONTROLS temp_unit;
+    MusicController music_controller;
     engine.rootContext()->setContextProperty("upper_control", &upper_controls);
     engine.rootContext()->setContextProperty("Temprature_Controls", &temp_unit);
+    engine.rootContext()->setContextProperty("musicController", &music_controller);
     engine.loadFromModule("TeslaMCU", "Main");
     if (engine.rootObjects().isEmpty()){return -1;}
 

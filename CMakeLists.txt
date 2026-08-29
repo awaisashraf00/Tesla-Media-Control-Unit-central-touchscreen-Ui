@@ -17,6 +17,7 @@ find_package(Qt6 REQUIRED COMPONENTS
     QuickControls2
     Positioning
     Location
+    Multimedia
 )
 
 
@@ -28,8 +29,10 @@ add_executable(TeslaMCU
     header_files/Backend.h
     header_files/temprature.h
     src/temprature.cpp
+    src/MusicController.cpp
+    header_files/MusicController.h
     resources/assets.qrc
-     
+
 )
 
 target_include_directories(TeslaMCU PRIVATE
@@ -65,4 +68,5 @@ target_link_libraries(TeslaMCU PRIVATE
     Qt6::QuickControls2
     Qt6::Location
     Qt6::Positioning
+    Qt6::Multimedia
 )

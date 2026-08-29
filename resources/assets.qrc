@@ -14,4 +14,9 @@
         <file>previous.png</file>
         <file>next.png</file>
     </qresource>
+    <qresource prefix="/music">
+        <file>music/track1.mp3</file>
+        <file>music/track2.mp3</file>
+        <file>music/track3.mp3</file>
+    </qresource>
 </RCC>
