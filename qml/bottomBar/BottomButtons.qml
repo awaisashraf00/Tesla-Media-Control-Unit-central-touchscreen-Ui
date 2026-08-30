@@ -97,9 +97,60 @@ Item {
             font.bold: true
         }
 
-        // #414347
+            // musicController
+
+        Item {
+            id: volumeControl
+            width: 106
+            height: 18
+            anchors.right: parent.right
+            anchors.rightMargin: 100
+            anchors.verticalCenter: parent.verticalCenter
+
+            Image {
+                id: volume_button_l
+                anchors.left: parent.left
+                anchors.verticalCenter: parent.verticalCenter
+                width: 35
+                height: 35
+                source: "qrc:/teslapixel/left-arrow.png"
+                fillMode: Image.PreserveAspectFit
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        musicController.decrement_volume();
+                    }
+                }
+            }
+
+            Text {
+                id: volume_text
+                text: musicController.volume ? musicController.volume + "*" : "--°"
+                anchors.left: volume_button_l.right
+                anchors.leftMargin: 8
+                anchors.verticalCenter: parent.verticalCenter
+                horizontalAlignment: Text.AlignHCenter
+                color: "#616362"
+                font.pixelSize: 35
+                font.bold: true
+            }
+
+            Image {
+                id: volume_button_r
+                anchors.left: volume_text.right
+                anchors.leftMargin: 8
+                anchors.verticalCenter: parent.verticalCenter
+                width: 35
+                height: 35
+                source: "qrc:/teslapixel/right-arrow.png"
+                fillMode: Image.PreserveAspectFit
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        musicController.increment_volume();
+                    }
+                }
+            }
+        }
     }
-
-
-
 }

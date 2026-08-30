@@ -110,15 +110,18 @@ Item {
                 height: parent.height * 0.5
 
                 Row {
+                    id: controlsRow
                     anchors.centerIn: parent
-                    spacing: 24
+                    spacing: 14
+                    height: 26
 
                     Image {
                         id: previousButton
-                        width: musicbar.height - 60
-                        height: width
+                        width: 26
+                        height: 26
                         source: "qrc:/teslapixel/previous.png"
                         fillMode: Image.PreserveAspectFit
+                        anchors.verticalCenter: parent.verticalCenter
 
                         MouseArea {
                             anchors.fill: parent
@@ -128,12 +131,13 @@ Item {
 
                     Image {
                         id: playButton
-                        width: musicbar.height - 60
-                        height: width
+                        width: 32
+                        height: 32
                         source: musicController.isPlaying
                                 ? "qrc:/teslapixel/pause.png"
                                 : "qrc:/teslapixel/play-buttton.png"
                         fillMode: Image.PreserveAspectFit
+                        anchors.verticalCenter: parent.verticalCenter
 
                         MouseArea {
                             anchors.fill: parent
@@ -143,57 +147,15 @@ Item {
 
                     Image {
                         id: nextButton
-                        width: musicbar.height - 60
-                        height: width
+                        width: 26
+                        height: 26
                         source: "qrc:/teslapixel/next.png"
                         fillMode: Image.PreserveAspectFit
+                        anchors.verticalCenter: parent.verticalCenter
 
                         MouseArea {
                             anchors.fill: parent
                             onClicked: musicController.next()
-                        }
-                    }
-
-                    // Volume control
-                    Item {
-                        width: 100
-                        height: playButton.height
-
-                        Row {
-                            anchors.centerIn: parent
-                            spacing: 5
-
-                            Text {
-                                text: "♪"
-                                font.pixelSize: 18
-                                color: "#1a1a1a"
-                                anchors.verticalCenter: parent.verticalCenter
-                            }
-
-                            Rectangle {
-                                id: volumeBackground
-                                width: 70
-                                height: 6
-                                color: "#888888"
-                                radius: 3
-                                anchors.verticalCenter: parent.verticalCenter
-
-                                Rectangle {
-                                    id: volumeBar
-                                    width: parent.width * (musicController.volume / 100)
-                                    height: parent.height
-                                    color: "#1a1a1a"
-                                    radius: 3
-                                }
-
-                                MouseArea {
-                                    anchors.fill: parent
-                                    onClicked: {
-                                        var newVolume = Math.round((mouse.x / width) * 100)
-                                        musicController.setVolume(newVolume)
-                                    }
-                                }
-                            }
                         }
                     }
                 }

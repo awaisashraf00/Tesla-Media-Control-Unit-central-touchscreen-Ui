@@ -10,7 +10,7 @@ MusicController::MusicController(QObject *parent)
     , m_volume(50)
 {
     m_player->setAudioOutput(m_audioOutput);
-    m_audioOutput->setVolume(m_volume / 100.0);
+    // m_audioOutput->setVolume(m_volume / 100.0);
 
     connect(m_player, &QMediaPlayer::playbackStateChanged,
             this, &MusicController::onPlaybackStateChanged);
@@ -113,14 +113,18 @@ void MusicController::seek(qint64 position)
     m_player->setPosition(position);
 }
 
-void MusicController::setVolume(int volume)
+Q_INVOKABLE void MusicController::increment_volume()
 {
-    if (m_volume == volume) return;
-
-    m_volume = qBound(0, volume, 100);
-    m_audioOutput->setVolume(m_volume / 100.0);
+    m_volume++;
+    
     emit volumeChanged();
 }
+Q_INVOKABLE void MusicController::decrement_volume()
+{
+    m_volume--;
+    emit volumeChanged();
+}
+
 
 void MusicController::playTrackAt(int index)
 {

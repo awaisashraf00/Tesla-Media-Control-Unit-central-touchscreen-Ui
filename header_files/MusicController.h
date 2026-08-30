@@ -18,7 +18,7 @@ class MusicController : public QObject
     Q_PROPERTY(int trackCount READ trackCount NOTIFY playlistChanged)
     Q_PROPERTY(qint64 duration READ duration NOTIFY durationChanged)
     Q_PROPERTY(qint64 position READ position NOTIFY positionChanged)
-    Q_PROPERTY(int volume READ volume WRITE setVolume NOTIFY volumeChanged)
+    Q_PROPERTY(int volume READ volume NOTIFY volumeChanged)
 
 private:
     QMediaPlayer *m_player;
@@ -50,7 +50,8 @@ public:
     Q_INVOKABLE void next();
     Q_INVOKABLE void previous();
     Q_INVOKABLE void seek(qint64 position);
-    Q_INVOKABLE void setVolume(int volume);
+    Q_INVOKABLE void increment_volume();
+    Q_INVOKABLE void decrement_volume();
     Q_INVOKABLE void playTrackAt(int index);
 
 signals:
