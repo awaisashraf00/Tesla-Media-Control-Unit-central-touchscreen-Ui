@@ -17,6 +17,8 @@ Item {
             GradientStop { position: 0.0; color: '#242526' }
             GradientStop { position: 1.0; color: "#000000" }
         }
+
+
         Image {
             id: homebutton
             source: "qrc:/teslapixel/home.png"
@@ -26,6 +28,12 @@ Item {
             anchors.centerIn: parent
             anchors.verticalCenter : parent.verticalCenter
             fillMode: Image.PreserveAspectFit
+            MouseArea{
+                anchors.fill:parent
+                onClicked:{
+                    homePopupVisible  = !homePopupVisible 
+                }   
+            }
         }
         
         Image {

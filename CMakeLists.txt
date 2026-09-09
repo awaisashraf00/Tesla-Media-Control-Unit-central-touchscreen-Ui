@@ -51,6 +51,7 @@ qt_add_qml_module(TeslaMCU
 
     QML_FILES
         qml/Main.qml
+        qml/Homebutton.qml
         qml/bottomBar/BottomButtons.qml
         qml/Leftscreen/LeftDashboard.qml
         qml/Rightscreen/MapView.qml

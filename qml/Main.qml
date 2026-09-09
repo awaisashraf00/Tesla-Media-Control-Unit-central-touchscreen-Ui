@@ -42,4 +42,15 @@ Window {
         anchors.right: mapView.left
         anchors.bottom: bottomBar.top
     }
+
+    Homebutton{
+        anchors{
+            left:parent.left
+            right: parent.right
+            top:parent.top
+            bottom: bottomBar.top
+        }
+    }
+
+
 }
