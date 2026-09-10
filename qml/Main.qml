@@ -2,10 +2,12 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 
 Window {
+    id: appWindow
     width: 1280
     height: 720
     visible: true
     title: "Tesla"
+    property bool homePopupVisible: false
 
     Rectangle {
         anchors.fill: parent
@@ -19,6 +21,7 @@ Window {
     BottomButtons {
         id: bottomBar
         temp_Unit:Temprature_Controls
+        onHomePopupToggled: appWindow.homePopupVisible = !appWindow.homePopupVisible
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right
@@ -44,6 +47,8 @@ Window {
     }
 
     Homebutton{
+        id:app_panel
+        homePopupVisible: appWindow.homePopupVisible
         anchors{
             left:parent.left
             right: parent.right
@@ -51,6 +56,5 @@ Window {
             bottom: bottomBar.top
         }
     }
-
 
 }

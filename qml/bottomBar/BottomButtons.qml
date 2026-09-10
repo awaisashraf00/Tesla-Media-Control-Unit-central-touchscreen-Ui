@@ -7,6 +7,7 @@ Item {
     height: 50
 
     property var temp_Unit
+    signal homePopupToggled()
 
     Rectangle {
         anchors.fill: parent
@@ -31,7 +32,7 @@ Item {
             MouseArea{
                 anchors.fill:parent
                 onClicked:{
-                    homePopupVisible  = !homePopupVisible 
+                    bottomBar.homePopupToggled()
                 }   
             }
         }

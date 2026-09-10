@@ -2,39 +2,38 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 
 Item{
-    property bool  homePopupVisible : false
     id : homespace
-    visible: homePopupVisible
-    
+
+    property bool homePopupVisible: false
+
     Rectangle{
-        opacity: 0.35
-        radius:20
-        border.color: "#888888"
-        border.width: 5 
+        id: homePopup
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.leftMargin: homespace.width * 0.10
+        anchors.rightMargin: homespace.width * 0.10
+        height: homespace.height
+        y: homespace.homePopupVisible ? 0 : homespace.height
+        visible: opacity > 0
+        z: 100
+        color: "transparent"
+        opacity: homespace.homePopupVisible ? 1 : 0
+        scale: 1
         gradient: Gradient {
-            GradientStop { position: 0.0; color: '#242526' }
-            GradientStop { position: 1.0; color: "#000000" }
+            GradientStop { position: 0.0; color: "#b3242526" }
+            GradientStop { position: 1.0; color: "#d9000000" }
         }
+        border.color: "#66888888"
+        border.width: 2
+        radius: 20
+        
+        Behavior on y {
+            NumberAnimation { duration: 280; easing.type: Easing.OutCubic }
+        }
+
+        Behavior on opacity {
+            NumberAnimation { duration: 220; easing.type: Easing.OutCubic }
+        }
+
     }
 }
-
-
-// // Image {
-// //     id: homebutton
-// //     // existing properties...
-    
-// //     MouseArea {
-// //         anchors.fill: parent
-// //         onClicked: homePopupVisible = !homePopupVisible
-// //     }
-// // }
-
-// HomePopup {
-//     id: homePopup
-//     visible: homePopupVisible
-//     anchors.bottom: homebutton.top
-//     anchors.bottomMargin: 10
-//     anchors.horizontalCenter: homebutton.horizontalCenter
-//     onCloseRequested: homePopupVisible = false
-// }
-// ```
