@@ -8,6 +8,7 @@ Window {
     visible: true
     title: "Tesla"
     property bool homePopupVisible: false
+    property bool callPopupVisible: false
 
     Rectangle {
         anchors.fill: parent
@@ -21,7 +22,17 @@ Window {
     BottomButtons {
         id: bottomBar
         temp_Unit:Temprature_Controls
-        onHomePopupToggled: appWindow.homePopupVisible = !appWindow.homePopupVisible
+        
+        onHomePopupToggled:{
+            appWindow.homePopupVisible = !appWindow.homePopupVisible
+            appWindow.callPopupVisible = false
+        } 
+            
+        onCallPopupToggled:{
+            appWindow.callPopupVisible = !appWindow.callPopupVisible
+            appWindow.homePopupVisible = false
+        } 
+        
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right
@@ -54,6 +65,18 @@ Window {
             right: parent.right
             top:parent.top
             bottom: bottomBar.top
+        }
+    }
+        
+
+    Callpanel{
+        id:call_panel
+        callbuttonvisible: !appWindow.homePopupVisible && appWindow.callPopupVisible
+        anchors{
+            left:parent.left
+            right: parent.right
+            bottom: bottomBar.top
+            top:parent.top
         }
     }
 

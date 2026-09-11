@@ -13,6 +13,8 @@
         <file>pause.png</file>
         <file>previous.png</file>
         <file>next.png</file>
+        <file>settings.png</file>
+        <file>wi-fi.png</file>
     </qresource>
     <qresource prefix="/music">
         <file>music/track1.mp3</file>

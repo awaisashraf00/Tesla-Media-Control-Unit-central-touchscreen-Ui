@@ -18,6 +18,7 @@ find_package(Qt6 REQUIRED COMPONENTS
     Positioning
     Location
     Multimedia
+    Sql
 )
 
 
@@ -26,7 +27,10 @@ qt_standard_project_setup(REQUIRES 6.8)
 add_executable(TeslaMCU
     src/main.cpp
     src/Backend.cpp
+    src/Backend.cpp
     header_files/Backend.h
+    src/DataSql.cpp
+    header_files/DataSql.h
     header_files/temprature.h
     src/temprature.cpp
     src/MusicController.cpp
@@ -52,6 +56,7 @@ qt_add_qml_module(TeslaMCU
     QML_FILES
         qml/Main.qml
         qml/Homebutton.qml
+        qml/Callpanel.qml
         qml/bottomBar/BottomButtons.qml
         qml/Leftscreen/LeftDashboard.qml
         qml/Rightscreen/MapView.qml
@@ -70,4 +75,5 @@ target_link_libraries(TeslaMCU PRIVATE
     Qt6::Location
     Qt6::Positioning
     Qt6::Multimedia
+    Qt6::Sql
 )

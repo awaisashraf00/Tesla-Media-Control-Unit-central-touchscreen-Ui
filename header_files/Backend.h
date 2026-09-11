@@ -2,6 +2,7 @@
 #include<QString>
 #include<QTimer>
 #include<QDateTime>
+#include <DataSql.h>
 
 class BACKEND : public QObject
 {
@@ -17,10 +18,13 @@ private:
     QString m_username = "Awais Ashraf";
     QTimer *m_time;
     QString time_now;
-
+    DATASQL &db = DATASQL::Create_Database_Instance();
+    
 public:
     explicit BACKEND(QObject *parent = nullptr);
     ~BACKEND();
+
+    void Add_User();
 
     bool car_locked();
     void set_car_locked(bool lock);

@@ -13,6 +13,26 @@ BACKEND::~BACKEND(){
     delete m_time;
 }
 
+void BACKEND::Add_User()
+{
+    QString q = R"(INSERT INTO users( user_name
+                                    , user_password
+                                    , user_email)
+                                VALUES(
+                                    :name,
+                                    :email
+                                    :password)
+                                        
+                                    )";
+    db.query.bindValue(":name", "John Doe");
+    db.query.bindValue(":email", "john@example.com");
+    db.query.bindValue(":password", "Anything");
+    
+    db.query.prepare(q);
+    db.query.exec();
+    
+}
+
 bool BACKEND::car_locked()
 {
     return m_car_locked;

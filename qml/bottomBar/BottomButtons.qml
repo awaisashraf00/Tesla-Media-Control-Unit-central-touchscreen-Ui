@@ -8,6 +8,7 @@ Item {
 
     property var temp_Unit
     signal homePopupToggled()
+    signal callPopupToggled()
 
     Rectangle {
         anchors.fill: parent
@@ -57,6 +58,12 @@ Item {
             height: parent.height - 10
             source: "qrc:/teslapixel/phone-call.png"
             fillMode: Image.PreserveAspectFit
+            MouseArea{
+                anchors.fill:parent
+                onClicked:{
+                    bottomBar.callPopupToggled()
+                }   
+            }
         }
         
         Image {
