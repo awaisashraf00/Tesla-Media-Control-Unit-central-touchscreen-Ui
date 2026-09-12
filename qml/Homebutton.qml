@@ -5,7 +5,10 @@ Item{
     id : homespace
 
     property bool homePopupVisible: false
+    property bool profile_panel_visible: false
+    property string profile_panel_mode: ""
     property int  margin_in_between: 20
+    property var backend
 
     Rectangle{
         id: homePopup
@@ -37,8 +40,8 @@ Item{
             anchors{
                 left:parent.left
                 top:parent.top
-                leftMargin : margin_in_between
-                topMargin:margin_in_between
+                leftMargin : homespace.margin_in_between
+                topMargin:homespace.margin_in_between
             }
         }
 
@@ -51,9 +54,38 @@ Item{
             anchors{
                 left:settings_button.right
                 top:parent.top
-                leftMargin : margin_in_between
-                topMargin:margin_in_between
+                leftMargin : homespace.margin_in_between
+                topMargin:homespace.margin_in_between
             }
+        }
+
+        UserPanel {
+            id: user_panel
+            anchors.centerIn: parent
+            visible_panel: homespace.profile_panel_visible
+            panel_mode: homespace.profile_panel_mode
+            backend: homespace.backend
+        }
+
+        Image{
+            id : profile_button
+            source: "qrc:/teslapixel/user.png"
+            fillMode: Image.PreserveAspectFit
+            width : parent.width * 0.10 
+            height : parent.height * 0.10
+            anchors{
+                left:signal_button.right
+                top:parent.top
+                leftMargin : homespace.margin_in_between
+                topMargin:homespace.margin_in_between
+            }
+            MouseArea{
+                anchors.fill: parent
+                onClicked:{
+                    homespace.profile_panel_visible  = !homespace.profile_panel_visible
+                }
+            }
+            
         }
         
         Behavior on y {

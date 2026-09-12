@@ -60,6 +60,7 @@ Window {
     Homebutton{
         id:app_panel
         homePopupVisible: appWindow.homePopupVisible
+        backend : upper_control
         anchors{
             left:parent.left
             right: parent.right
