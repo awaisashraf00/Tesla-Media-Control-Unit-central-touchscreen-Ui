@@ -61,15 +61,15 @@ void BACKEND::Load_Users()
     emit users_changed();
 }
 
-void BACKEND::Delet_Users()
+void BACKEND::Delet_Users(int user_id)
 {
     QSqlQuery users_query(db.Create_Database());
+    users_query.prepare("DELETE FROM users WHERE user_id = :user_id");
+    users_query.bindValue(":user_id", user_id);
 
-    if (users_query.exec("DELETE FROM table_name WHERE id = 5;")) {
-        qDebug()<<"query success deleted user";
+    if (users_query.exec()) {
+        Load_Users();
     }
-
-    emit users_changed();
 }
 
 bool BACKEND::car_locked()

@@ -43,7 +43,7 @@ public:
 
     Q_INVOKABLE void Add_User(QString name , QString mail , QString password);
     Q_INVOKABLE void Load_Users();
-    Q_INVOKABLE void Delet_Users();
+    Q_INVOKABLE void Delet_Users(int user_id);
 
     bool car_locked();
     void set_car_locked(bool lock);

@@ -221,6 +221,34 @@ Rectangle {
                         font.pixelSize: 13
                     }
                 }
+
+                Rectangle {
+                    width: 30
+                    height: 30
+                    anchors.right: parent.right
+                    anchors.rightMargin: 12
+                    anchors.verticalCenter: parent.verticalCenter
+                    radius: 15
+                    color: "#66333333"
+                    border.color: "#66888888"
+
+                    Text {
+                        anchors.centerIn: parent
+                        text: "X"
+                        color: "#d6d6d6"
+                        font.bold: true
+                        font.pixelSize: 14
+                    }
+
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: {
+                            if (backend) {
+                                backend.Delet_Users(modelData.id)
+                            }
+                        }
+                    }
+                }
             }
 
             Text {
